@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Scenarist</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://scenaristapp.com/open/">
+<script>
+  // A scene link from scenaristapp.com. With Scenarist 1.14 or later installed, iOS opens
+  // it in the app and this page never loads. Everywhere else, the scene is shown on
+  // scenaristapp.com/open, which reads it from the same fragment: the scene never
+  // reaches a server.
+  location.replace('https://scenaristapp.com/open/' + (location.hash || ''));
+</script>
+</head>
+<body>
+<p><a href="https://scenaristapp.com/open/">Scenarist: open the scene on scenaristapp.com</a></p>
+</body>
+</html>
