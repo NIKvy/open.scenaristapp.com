@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["MRWF644W5B.com.MykolaViunyk.Scenarium"],
+        "components": [
+          { "/": "/*", "comment": "Every page here is a scene from scenaristapp.com, carried in the link" }
+        ]
+      }
+    ]
+  }
+}
